@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".GoogleSignInActivity">
+
+    <!-- 🔙 Back Button -->
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/back"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 🟢 Google Sign-In Button -->
+    <Button
+        android:id="@+id/btnGoogleSignIn"
+        android:layout_width="351dp"
+        android:layout_height="37dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/google_button"
+        android:drawableLeft="@drawable/icon_google"
+        android:drawablePadding="4dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="40dp"
+        android:text="sign in with google"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        android:theme="@style/Widget.AppCompat.Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

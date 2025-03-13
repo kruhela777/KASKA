@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2DFDB"
+    tools:context=".MicroLearningActivity">
+
+    <ImageView
+        android:id="@+id/imageMicroLearning"
+        android:layout_width="304dp"
+        android:layout_height="312dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="Micro Learning Image"
+        android:src="@drawable/micro_learning"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:text="Micro-Learning Capsules"
+        android:textAlignment="center"
+        android:textColor="#005F73"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageMicroLearning" />
+
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="254dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="Quick bite-sized capsules for your busy schedule."
+        android:textAlignment="center"
+        android:textColor="#005F73"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textTitle" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#005F73"
+        android:text="Get Started"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

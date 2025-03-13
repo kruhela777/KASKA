@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A9396"
+    tools:context=".DiagramRecognitionActivity">
+
+    <!-- App Logo -->
+
+    <!-- Title -->
+
+    <!-- Subtitle -->
+
+    <!-- Next Button -->
+
+    <!-- Skip Button -->
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="279dp"
+        android:layout_height="286dp"
+        android:layout_marginTop="68dp"
+        android:contentDescription="Diagram Recognition Logo"
+        android:src="@drawable/diagram"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Diagram Recognition"
+        android:textColor="#F1FAEE"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageLogo" />
+
+    <TextView
+        android:id="@+id/textSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Convert sketches into high-quality, editable formats."
+        android:textAlignment="center"
+        android:textColor="#F1FAEE"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textTitle" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#005F73"
+        android:text="Next"
+        android:textColor="#F1FAEE"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textSubtitle" />
+
+    <Button
+        android:id="@+id/btnSkip"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#F1FAEE"
+        android:text="Skip"
+        android:textColor="#005F73"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnNext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
