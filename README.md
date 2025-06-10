@@ -21,4 +21,5 @@ Kaska is a note-taking app that connects handwritten notes with digital formats.
 ## Requirements
 
 - Python
+- Java
 - Gemini API Key
